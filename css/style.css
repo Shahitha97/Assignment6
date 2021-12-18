@@ -1,0 +1,219 @@
+/*Athor: Shahitha S;
+Date: 17/12/2021;
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+/*container start*/
+.container{
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	width: 93.5%;
+	padding: 50px;
+	height: 280px;
+}
+
+.container a{
+	text-align: center;
+	border:solid #00f;
+	text-decoration: none;
+	font-size: 24px;
+	color: #fff;
+
+	padding: 20px;
+}
+.container p{
+	padding: 20px;
+	margin: 30px;
+}
+.container a:hover{
+	background-color: #00f;
+}
+.sub-container h1{
+	text-align: center;
+	background-color: #fff;
+	padding: 30px;
+
+}
+.sub-container{
+	background-color: #fff;
+	margin: 20px;
+	padding: 30px;
+}
+.sub-container p{
+	text-align: center;
+	margin: 10px;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.main-container{
+	display: flex;
+	background-color: #333;
+	padding: 60px;
+}
+.image{
+width: 30%;
+margin: 20px;
+padding: 30px;
+background-color: #fff;
+border-radius: 20px;
+
+}
+.image img{
+	width: 100%;
+	border-radius: 20px;
+	height: auto;
+}
+.image h3{
+	text-align: center;
+	font-size: 22px;
+}
+.image p{
+	text-align: center;
+	font-size: 16px;
+
+}
+
+/*container end*/
+
+/*footer start*/
+.footer{
+	display: flex;
+	height: 400px;
+}
+.footer div{
+	width: 50%;
+	padding: 60px;
+	position: relative;
+
+}
+.row h3{
+   text-align: center;
+   font-size: 35px;
+   padding: 30px;
+  
+}
+.row{
+	background-color: #0d6efd;
+}
+.row p{
+	font-size: 24px;
+	text-align: center;
+}
+.col h3{
+	text-align: center;
+   font-size: 35px;
+   padding: 30px;
+  
+}
+.col{
+	text-align: center;
+	background-color: #333;
+	color: #fff;
+}
+.col p{
+	font-size: 24px;
+	text-align: center;
+}
+/*footer end*/
+
+/*media query*/
+@media only screen and (max-width: 576px){
+.container{
+		width: 103.5%;
+		height: 80vh;
+		padding: 100px;
+		font-size: 30px;
+		margin-top: 3px;
+		
+	}
+.container p{
+	margin-top: 10px;
+	font-size: 24px;
+	text-align: center;
+}
+.sub-container{
+	width: 100%;
+	font-size: 24px;
+	height: 50vh;
+	padding: 80px;
+	text-align: center;
+	
+}
+.sub-container h1{
+	text-align: center;
+	padding: 20px;
+	font-size: 45px;
+	height: 10vh;
+
+}
+.sub-container p{
+	font-size: 24px;
+	margin-top: 5vh;
+}
+
+.main-container{
+	font-size: 35px;
+	display: block;
+	width: 125%
+
+
+}
+.image{
+	width: 80%;
+	height: 80vh;
+}	
+
+.image h3{
+	text-align: center;
+	font-size: 35px;
+}
+.image p{
+	text-align: center;
+	font-size: 35px;
+
+}
+.footer{
+	width: 115%;
+	height: 70vh;
+	display: block;
+	font-size: 24px;
+}
+.row{
+	font-size: 35px;
+}
+.row h3{
+   text-align: center;
+   font-size: 55px;
+   
+  }
+  .row p{
+	font-size: 35px;
+}
+.col{
+	font-size: 35px;
+}
+.row{
+	text-align: center;
+}
+.col{
+	text-align: justify;
+}
+.col h3{
+	text-align: center;
+   font-size: 55px;
+   }
+
+.col p{
+	font-size: 35px;
+}
+.footer div{
+	width: 110%;
+	padding: 60px;
+
+}
+}
